@@ -2,7 +2,7 @@
 title: "Adjusting the Lens: A Multifaceted Approach to Survey Nonresponse"
 author: 
   - Yuanyi (Leo) Liu
-thanks: "Code and data are available at: https://github.com/leoyliu/Decoding-Toronto-Crime-Trends-from-2014-to-2023."
+thanks: "Code and data are available at: https://github.com/leoyliu/A-Multifaceted-Approach-to-Survey-Nonresponse."
 date: today
 date-format: long
 format: pdf
@@ -11,23 +11,35 @@ number-sections: true
 bibliography: references.bib
 ---
 
-## Quarto
+# Essay {#sec-essay}
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+Based on the editorial from the Special Virtual Issue on Nonresponse Rates and Nonresponse Adjustments in the Journal of Survey Statistics and Methodology, we will focus on the aspect of declining response rates across different modes of data collection and their implications for survey research. The editorial outlines how response rates have been falling across all modes of data collection, which is a trend observed in numerous studies [@Williams2018TrendsIU; @Dutwin2020TelephoneSS; @Daikeler2020WebVS].
 
-## Running Code
+One significant aspect covered is the declining response rates across different modes of data collection and the implications for survey research. This decline is consistent across telephone, face-to-face, and web surveys, indicating a broader trend in survey participation behavior. The editorial discusses how lower response rates can lead to nonresponse bias, where the characteristics of nonrespondents differ systematically from respondents, potentially skewing survey results.
 
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+Studies have shown that certain populations, such as younger individuals, ethnic minorities, and those with lower socioeconomic status, are more likely to be nonrespondents in surveys [@Groves2012NonresponseIH]. This demographic skew in nonresponse can exacerbate the bias, as these groups may hold different views or characteristics from those who do participate, leading to significant gaps in the data collected.
 
-```{r}
-1 + 1
-```
+Moreover, the mode of survey administration plays a crucial role in influencing response rates. While web surveys offer convenience and scalability, they often suffer from lower response rates compared to traditional methods like face-to-face interviews or telephone surveys. The impersonal nature of web surveys, combined with concerns about privacy and data security, can deter potential respondents [@Daikeler2020WebVS]. Conversely, face-to-face interviews, despite their higher costs, tend to yield higher response rates due to the personal engagement and the perceived importance of the survey by respondents [@Dutwin2020TelephoneSS].
 
-You can add options to executable code like this
+The evolution of communication technologies and changing societal norms also impact response rates. The proliferation of mobile devices and the decline in landline usage have challenged the traditional telephone survey methods, leading to a need for innovative approaches to reach potential respondents effectively [@Williams2018TrendsIU]. Additionally, the increasing prevalence of spam calls and emails has made individuals more cautious about participating in surveys, fearing scams or data breaches.
 
-```{r}
-#| echo: false
-2 * 2
-```
+To counteract these challenges, survey researchers have employed various strategies. One approach is the use of mixed-mode surveys, which combine different methods of data collection (e.g., web and telephone) to increase coverage and response rates. This approach can help reach different segments of the population who may prefer one mode over another, thus reducing nonresponse bias [@Dillman2014].
 
-The `echo: false` option disables the printing of code (only output is displayed).
+Another strategy is the implementation of tailored design methods, where survey procedures are customized based on characteristics of the sample units, such as previous survey participation behavior, demographic information, or known preferences for certain modes of communication. This method aims to increase respondent engagement and willingness to participate by making the survey experience more relevant and less burdensome [@Groves2012NonresponseIH].
+
+Despite these efforts, nonresponse remains a significant challenge, and its effects on survey quality and representativeness continue to be a concern. Advanced statistical techniques, such as propensity score adjustment and calibration weighting, have been developed to address nonresponse bias. These methods involve modeling the probability of response and adjusting the survey weights accordingly to account for differences between respondents and nonrespondents [@Peytcheva2009UsingVR]. However, the effectiveness of these techniques depends on the availability and quality of auxiliary information, which is not always accessible or accurate.
+
+The ongoing debate in the field of survey methodology revolves around the balance between efforts to increase response rates and the application of statistical adjustments for nonresponse. While some researchers advocate for more aggressive measures to boost participation, others argue for focusing on the development of robust adjustment methods, given the inevitability of some degree of nonresponse in surveys [@Groves2008TheIO].
+
+Given these challenges, there is a need for continuous research into understanding the causes of nonresponse and developing more effective strategies for mitigating its effects. This could include more innovative survey designs that engage potential respondents more effectively, as well as advanced statistical techniques that can better account for the complex nature of nonresponse in today's survey environment.
+
+In conclusion, declining response rates in surveys present a complex challenge that requires a multifaceted approach. Understanding the underlying factors contributing to nonresponse, exploring innovative data collection methods, and advancing statistical techniques for nonresponse adjustment are crucial for maintaining the quality and credibility of survey research. The field must continue to adapt to changing technologies and societal norms, ensuring that surveys remain a vital tool for data collection in an increasingly complex world.
+
+\newpage
+
+# References
+
+::: {#refs}
+:::
+
+{{< pagebreak >}}
